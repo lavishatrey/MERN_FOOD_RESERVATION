@@ -8,7 +8,7 @@ import { dbConnection } from "./database/dbConnection.js";
 
 const app = express();
 dotenv.config({ path: "./config.env" });
-app.use(bodyParser.json());
+
 
 
 app.use(
